@@ -67,14 +67,9 @@ public class Main {
                                         if (contaTweeter != 0) {
                                             for (int i = contaTimeLine - 1; i >= 0; i--) {
                                                 if (tweeter[i] != null) {
-                                                    System.out.println(tweeter[i]);
-                                                    System.out.println(i);
-                                                }
-                                                if(i == 0){
-                                                    break;
-                                                }
+                                                    System.out.println(tweeter[i]);                                                 
+                                                }                                                
                                             }
-
                                         } else {
                                             System.out.println("Não há nenhum tweet para ver no momento");
                                         }
@@ -90,8 +85,7 @@ public class Main {
                                         contaTweeter = contaTimeLine;
                                         System.out.println("Tweet feito com sucesso!");
                                         break;
-                                    case 3:
-                                        System.out.println("teste");
+                                    case 3:                                        
                                         menu2 = false;
                                         break;
 
